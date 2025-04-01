@@ -1,0 +1,293 @@
+body {
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-family: sans-serif;
+    margin: 0px;
+    background-image:url('images/Whitebackground.jpeg');
+    background-repeat: repeat;
+} main{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:25px;
+    position:relative;
+    z-index: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+    box-shadow:0px 0px 5px 5px #000000;
+    background-color:#333D79FF;
+    font-size: 18px;
+}
+.F{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.textarea{
+    height:250px;
+}
+.Contact{
+    width: 33%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.Line{
+    
+    border-left: 2px Solid #c6c1c1;
+     
+}
+.thanks{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Resume2 a:visited{
+    background-color: black;
+}
+.ResumeD{
+    color:white;
+    border: 2px Solid #c6c1c1;
+}
+.footer{
+ display:flex;
+    flex-direction: row;
+    position:relative;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.resume{
+    text-align:center;
+    color:white;
+}
+h1{
+    padding-top: 10px;
+}
+.resumeline{
+    border-left: 2px Solid #c6c1c1;
+    padding-left: 8px;
+}
+.resumediv{
+    width:50%;
+     margin:2px;
+}
+.btn{
+    display: block;
+    color: white;
+    background-color:#494646;
+    text-align:center;
+    font-size: 17px;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    position: relative;
+    z-index: 3;
+
+}
+.ballbox{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20vh;
+    display:flex;
+    background-color: aqua;
+    align-items:center;
+    justify-content: center;
+}
+.Noball{
+     width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    animation-name: bouncing;
+    animation: bouncing 1.5s ease-in-out infinite;
+}
+@keyframes bouncing{
+    0%{
+        transform: translateY(30px)
+    }
+    
+    50%{
+        transform: translateY(-30px)
+    }
+    100%{ transform: translateY(30px)
+        
+    }
+}
+.HeadF{
+    font-size:20px;
+    color:black;
+    padding-left: 5px;
+    margin-top: 40px
+
+}
+
+footer{
+    position: relative;
+    margin:auto;   
+    background-color:#c5ddf0;
+    width:100%;
+display:inline-block;
+}
+ header{
+     position: relative;
+     margin:auto;
+     z-index: 2;
+     display:inline-block;  
+    background-color:#c5ddf0;
+    width:100%;
+        }
+.menu{
+    width: 20%;
+    float: right; 
+}
+.dropdown_cover{
+    background-color: #c5ddf0;
+    position: relative;
+    z-index: 3;
+    padding: 10px;
+}
+.Message{
+    vertical-align: top;
+}
+
+  
+nav{
+    display: block;
+    transition: all 0.5s ease;
+    translate: 0px -400px;
+}
+.menu:hover nav, .menu:focus-within nav{
+   translate: 0px 0px;
+    
+}
+.focus:focus-within{
+    outline:red 7px solid;
+}
+nav{
+    background-color: #c5ddf0;
+    width: 20%;
+    position: absolute;
+    z-index: 1;
+}
+nav ul{
+    padding-left: 0;}
+.LinLink{
+    display:block;
+    width: 20%;
+     margin-left: auto;
+    margin-right: auto;
+    background-color:#333D79FF;
+}
+
+.LinLink a:hover{
+    background-color:#333D79FF;
+}
+.LinkedIn{
+    display:block;
+  margin-right:auto;
+    margin-left:auto;
+    width:100%;
+    border:0;
+}
+table, th, td{
+    border:1px solid white;
+}
+.logo{
+    display:inline-block;
+        width:20%;
+}
+nav ul li{
+    margin:5px;
+    padding:3px;
+    list-style:none;
+    
+}
+nav ul li a{ 
+    text-decoration:none;
+}
+a:link {
+  color:#c2c1c1;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ .Phone a:visited{
+    background-color:antiquewhite;
+}
+.Phone a:hover{
+    background-color:white;
+}
+.menu a:link, .menu a:visited {
+  background-color:#494646;
+  color:white;
+  padding: 14px 0;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+    width:100%;
+}
+.Foot{
+    position:relative;
+float:right;
+    width:50%; 
+}
+.btn:hover{
+    background-color: black;
+}
+.menu a:hover, a:active {
+  background-color: black;
+}.LogoF{
+    width:100%;
+    margin-top: 20px;
+    padding-bottom: 5px;
+     border:0;
+    display:block;
+}
+.Linkedin2{
+    width:100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.footer .FooterLink {
+    display:block;
+    border: 10px;
+    margin-left: 20px;
+    width: 9%;
+    
+}
+img.Headshot {
+    width: 23%;
+    margin-left:6px; 
+    margin-bottom:6px;
+    border:3px;
+    border-style: dotted;
+    border-color: beige;
+    float:right;
+}
+
+@media screen and (max-width:480px){
+    body{
+        font-size: 30px;
+        
+    }
+    main{
+        font-size: 30px;
+    }
+    img{
+        width:110%;
+    }
+}
