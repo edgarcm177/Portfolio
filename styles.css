@@ -22,7 +22,7 @@
 }
 
 html {
-    scroll-behavior: smooth; /* Native smooth scroll fallback */
+    scroll-behavior: smooth; 
 }
 
 body {
@@ -33,7 +33,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Monospace Utilities */
 .mono-subtitle, .mono-tag {
     font-family: var(--font-mono);
     color: var(--accent-color);
@@ -238,7 +237,6 @@ body {
     flex: 1;
 }
 
-/* Responsive Video & Media Styles */
 .project-media {
     width: 100%;
     overflow: hidden;
@@ -256,7 +254,7 @@ body {
 .video-responsive {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
     border-radius: 8px;
